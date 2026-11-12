@@ -2,7 +2,7 @@
 
 实现A*、Minimax与Alpha-beta，完成四道搜索算法题目。
 
-`./results/`保存原始实验数据。验证复现时使用`--output-dir ./results_check`，避免覆盖原始计时。
+`./results/`保存原始实验数据。验证复现时应该使用`--output-dir ./results_check`，避免覆盖原始计时。
 
 ## 1. 环境要求
 
