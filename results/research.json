@@ -1,0 +1,3789 @@
+{
+  "protocol": {
+    "map_size": [
+      20,
+      20
+    ],
+    "densities": [
+      0,
+      0.15,
+      0.3
+    ],
+    "map_seeds": [
+      12000,
+      12001,
+      12002,
+      12003,
+      12004,
+      12005,
+      12006,
+      12007,
+      12008,
+      12009,
+      12010,
+      12011,
+      12012,
+      12013,
+      12014,
+      12015,
+      12016,
+      12017,
+      12018,
+      12019
+    ],
+    "tree_seeds": [
+      22000,
+      22001,
+      22002,
+      22003,
+      22004,
+      22005,
+      22006,
+      22007,
+      22008,
+      22009,
+      22010,
+      22011,
+      22012,
+      22013,
+      22014,
+      22015,
+      22016,
+      22017,
+      22018,
+      22019
+    ],
+    "policy_seeds": [
+      32000,
+      32001,
+      32002,
+      32003,
+      32004,
+      32005,
+      32006,
+      32007,
+      32008,
+      32009,
+      32010,
+      32011,
+      32012,
+      32013,
+      32014,
+      32015,
+      32016,
+      32017,
+      32018,
+      32019,
+      32020,
+      32021,
+      32022,
+      32023,
+      32024,
+      32025,
+      32026,
+      32027,
+      32028,
+      32029,
+      32030,
+      32031,
+      32032,
+      32033,
+      32034,
+      32035,
+      32036,
+      32037,
+      32038,
+      32039
+    ],
+    "time_repeats": 7,
+    "timing": "external whole-call median after one warm-up; input creation excluded"
+  },
+  "maps": [
+    {
+      "density": 0.0,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 804.8999999346051
+    },
+    {
+      "density": 0.0,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1346.6999999991458
+    },
+    {
+      "density": 0.0,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1423.5000001008302
+    },
+    {
+      "density": 0.0,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1368.5000000123182
+    },
+    {
+      "density": 0.0,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 303.7000000176704
+    },
+    {
+      "density": 0.0,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 797.4000000103842
+    },
+    {
+      "density": 0.0,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1342.7999999748863
+    },
+    {
+      "density": 0.0,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1388.1999999512118
+    },
+    {
+      "density": 0.0,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1365.3999999405642
+    },
+    {
+      "density": 0.0,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 311.9000000424421
+    },
+    {
+      "density": 0.0,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 787.199999990662
+    },
+    {
+      "density": 0.0,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1365.9999999617867
+    },
+    {
+      "density": 0.0,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1371.7000000497137
+    },
+    {
+      "density": 0.0,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1399.799999944662
+    },
+    {
+      "density": 0.0,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 300.79999999088614
+    },
+    {
+      "density": 0.0,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 807.4999999507781
+    },
+    {
+      "density": 0.0,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1351.5999999071937
+    },
+    {
+      "density": 0.0,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1400.300000000243
+    },
+    {
+      "density": 0.0,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1361.799999926916
+    },
+    {
+      "density": 0.0,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 415.5999999966298
+    },
+    {
+      "density": 0.0,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 800.3000000371685
+    },
+    {
+      "density": 0.0,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1367.5999999804844
+    },
+    {
+      "density": 0.0,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1389.8000000835964
+    },
+    {
+      "density": 0.0,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1363.1000000486893
+    },
+    {
+      "density": 0.0,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 301.3000000464672
+    },
+    {
+      "density": 0.0,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 794.9000000735396
+    },
+    {
+      "density": 0.0,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1360.700000077486
+    },
+    {
+      "density": 0.0,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1376.1999999815089
+    },
+    {
+      "density": 0.0,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1385.0999999931446
+    },
+    {
+      "density": 0.0,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 311.3000000212196
+    },
+    {
+      "density": 0.0,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 848.3999999953085
+    },
+    {
+      "density": 0.0,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1348.7999999597378
+    },
+    {
+      "density": 0.0,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1387.3999999987063
+    },
+    {
+      "density": 0.0,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1383.7000000194166
+    },
+    {
+      "density": 0.0,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 299.89999995905237
+    },
+    {
+      "density": 0.0,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 802.300000032119
+    },
+    {
+      "density": 0.0,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1340.7999999799358
+    },
+    {
+      "density": 0.0,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1377.1999999789841
+    },
+    {
+      "density": 0.0,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1363.9999999668362
+    },
+    {
+      "density": 0.0,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 302.20000007830095
+    },
+    {
+      "density": 0.0,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 792.0000000467553
+    },
+    {
+      "density": 0.0,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1344.399999993584
+    },
+    {
+      "density": 0.0,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1386.7999999774838
+    },
+    {
+      "density": 0.0,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1602.700000034929
+    },
+    {
+      "density": 0.0,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 301.4999999777501
+    },
+    {
+      "density": 0.0,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 790.5999999593405
+    },
+    {
+      "density": 0.0,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1343.199999951139
+    },
+    {
+      "density": 0.0,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1381.7000000244661
+    },
+    {
+      "density": 0.0,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1368.2999999673484
+    },
+    {
+      "density": 0.0,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 306.39999999948486
+    },
+    {
+      "density": 0.0,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 797.7000000209955
+    },
+    {
+      "density": 0.0,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1342.300000032992
+    },
+    {
+      "density": 0.0,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1405.7000000775588
+    },
+    {
+      "density": 0.0,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1376.9999999340143
+    },
+    {
+      "density": 0.0,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 301.3999998984218
+    },
+    {
+      "density": 0.0,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 797.799999986637
+    },
+    {
+      "density": 0.0,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1354.999999989559
+    },
+    {
+      "density": 0.0,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1379.4000000189044
+    },
+    {
+      "density": 0.0,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1367.0000000729488
+    },
+    {
+      "density": 0.0,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 304.5000000838627
+    },
+    {
+      "density": 0.0,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 795.3000000497923
+    },
+    {
+      "density": 0.0,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1349.1000000840359
+    },
+    {
+      "density": 0.0,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1379.1999999739346
+    },
+    {
+      "density": 0.0,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1363.8000000355532
+    },
+    {
+      "density": 0.0,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 301.1000000014974
+    },
+    {
+      "density": 0.0,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 809.0999999694759
+    },
+    {
+      "density": 0.0,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1347.3999999860098
+    },
+    {
+      "density": 0.0,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1388.499999961823
+    },
+    {
+      "density": 0.0,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1367.2999999698732
+    },
+    {
+      "density": 0.0,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 302.4000000095839
+    },
+    {
+      "density": 0.0,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 805.1999999452164
+    },
+    {
+      "density": 0.0,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1342.7000000092448
+    },
+    {
+      "density": 0.0,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1395.5000000578366
+    },
+    {
+      "density": 0.0,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1411.5000000174405
+    },
+    {
+      "density": 0.0,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 305.6000000469794
+    },
+    {
+      "density": 0.0,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 792.6999999199325
+    },
+    {
+      "density": 0.0,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1351.4000000895976
+    },
+    {
+      "density": 0.0,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1377.1000000133427
+    },
+    {
+      "density": 0.0,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1361.9999999718857
+    },
+    {
+      "density": 0.0,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 429.4999999956417
+    },
+    {
+      "density": 0.0,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 788.8999999750013
+    },
+    {
+      "density": 0.0,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1349.3999999809603
+    },
+    {
+      "density": 0.0,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1368.899999988571
+    },
+    {
+      "density": 0.0,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1359.9000000112937
+    },
+    {
+      "density": 0.0,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 303.40000000705913
+    },
+    {
+      "density": 0.0,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 795.700000026045
+    },
+    {
+      "density": 0.0,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1338.3000000430911
+    },
+    {
+      "density": 0.0,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1383.4999999744468
+    },
+    {
+      "density": 0.0,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1372.000000060325
+    },
+    {
+      "density": 0.0,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 300.10000000402215
+    },
+    {
+      "density": 0.0,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 803.7999999714884
+    },
+    {
+      "density": 0.0,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1337.6000000562271
+    },
+    {
+      "density": 0.0,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1392.1999999411128
+    },
+    {
+      "density": 0.0,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1367.8999999910957
+    },
+    {
+      "density": 0.0,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 302.49999997522536
+    },
+    {
+      "density": 0.0,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 797.3000000447428
+    },
+    {
+      "density": 0.0,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1355.8000000557513
+    },
+    {
+      "density": 0.0,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1669.3999999688458
+    },
+    {
+      "density": 0.0,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 400,
+      "median_us": 1393.3000000179163
+    },
+    {
+      "density": 0.0,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 313.39999998181156
+    },
+    {
+      "density": 0.15,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 344,
+      "median_us": 686.7999999258245
+    },
+    {
+      "density": 0.15,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 344,
+      "median_us": 1153.4999999867068
+    },
+    {
+      "density": 0.15,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 344,
+      "median_us": 1190.5000000069776
+    },
+    {
+      "density": 0.15,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 288,
+      "median_us": 1077.2000000542903
+    },
+    {
+      "density": 0.15,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 85,
+      "median_us": 508.8999999998123
+    },
+    {
+      "density": 0.15,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 296,
+      "median_us": 589.3000000014581
+    },
+    {
+      "density": 0.15,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 296,
+      "median_us": 1094.9999999638749
+    },
+    {
+      "density": 0.15,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 296,
+      "median_us": 1057.5000000017099
+    },
+    {
+      "density": 0.15,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 200,
+      "median_us": 774.2000000234839
+    },
+    {
+      "density": 0.15,
+      "seed": 12001,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 44,
+      "median_us": 311.3999999868611
+    },
+    {
+      "density": 0.15,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 348,
+      "median_us": 685.3000001001419
+    },
+    {
+      "density": 0.15,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 348,
+      "median_us": 1178.8999998998406
+    },
+    {
+      "density": 0.15,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 348,
+      "median_us": 1195.999999936248
+    },
+    {
+      "density": 0.15,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1162.7000000089538
+    },
+    {
+      "density": 0.15,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 58,
+      "median_us": 360.30000001119333
+    },
+    {
+      "density": 0.15,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 343,
+      "median_us": 671.6999999980544
+    },
+    {
+      "density": 0.15,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 343,
+      "median_us": 1117.2999999189415
+    },
+    {
+      "density": 0.15,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 343,
+      "median_us": 1200.1999999711188
+    },
+    {
+      "density": 0.15,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 325,
+      "median_us": 1126.4000000892338
+    },
+    {
+      "density": 0.15,
+      "seed": 12003,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 46,
+      "median_us": 306.3000000338434
+    },
+    {
+      "density": 0.15,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 341,
+      "median_us": 652.1999999904438
+    },
+    {
+      "density": 0.15,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 341,
+      "median_us": 1128.99999999172
+    },
+    {
+      "density": 0.15,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 341,
+      "median_us": 1160.4999999690335
+    },
+    {
+      "density": 0.15,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 321,
+      "median_us": 1111.4000000134183
+    },
+    {
+      "density": 0.15,
+      "seed": 12004,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 62,
+      "median_us": 393.0999999965934
+    },
+    {
+      "density": 0.15,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 339,
+      "median_us": 658.7999999965177
+    },
+    {
+      "density": 0.15,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 339,
+      "median_us": 1113.199999963399
+    },
+    {
+      "density": 0.15,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 339,
+      "median_us": 1146.0999999144406
+    },
+    {
+      "density": 0.15,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 158,
+      "median_us": 625.8000000798347
+    },
+    {
+      "density": 0.15,
+      "seed": 12005,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 43,
+      "median_us": 318.10000007226336
+    },
+    {
+      "density": 0.15,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 665.2999999232634
+    },
+    {
+      "density": 0.15,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1090.5999999977212
+    },
+    {
+      "density": 0.15,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1120.300000025054
+    },
+    {
+      "density": 0.15,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 260,
+      "median_us": 942.0000000091022
+    },
+    {
+      "density": 0.15,
+      "seed": 12006,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 40,
+      "median_us": 305.79999997826235
+    },
+    {
+      "density": 0.15,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 646.4999999025167
+    },
+    {
+      "density": 0.15,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1089.1000000583517
+    },
+    {
+      "density": 0.15,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1133.699999968485
+    },
+    {
+      "density": 0.15,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 243,
+      "median_us": 886.1000000024433
+    },
+    {
+      "density": 0.15,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 40,
+      "median_us": 290.0999999155829
+    },
+    {
+      "density": 0.15,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 349,
+      "median_us": 691.9999999581705
+    },
+    {
+      "density": 0.15,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 349,
+      "median_us": 1152.1999999786203
+    },
+    {
+      "density": 0.15,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 349,
+      "median_us": 1178.9000000135275
+    },
+    {
+      "density": 0.15,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 293,
+      "median_us": 1059.899999972913
+    },
+    {
+      "density": 0.15,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 287.3999999337684
+    },
+    {
+      "density": 0.15,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 347,
+      "median_us": 674.3999999798689
+    },
+    {
+      "density": 0.15,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 347,
+      "median_us": 1152.8999999654843
+    },
+    {
+      "density": 0.15,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 347,
+      "median_us": 1160.1999999584223
+    },
+    {
+      "density": 0.15,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 313,
+      "median_us": 1119.799999969473
+    },
+    {
+      "density": 0.15,
+      "seed": 12009,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 51,
+      "median_us": 333.800000021256
+    },
+    {
+      "density": 0.15,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 348,
+      "median_us": 676.6999999854306
+    },
+    {
+      "density": 0.15,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 348,
+      "median_us": 1139.2000000114422
+    },
+    {
+      "density": 0.15,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 348,
+      "median_us": 1188.7999999089516
+    },
+    {
+      "density": 0.15,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 323,
+      "median_us": 1133.3999999578737
+    },
+    {
+      "density": 0.15,
+      "seed": 12010,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 65,
+      "median_us": 372.09999993592646
+    },
+    {
+      "density": 0.15,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 346,
+      "median_us": 684.5000000339496
+    },
+    {
+      "density": 0.15,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 346,
+      "median_us": 1151.8000000023676
+    },
+    {
+      "density": 0.15,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 346,
+      "median_us": 1174.0999999574342
+    },
+    {
+      "density": 0.15,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 285,
+      "median_us": 1046.200000018871
+    },
+    {
+      "density": 0.15,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 66,
+      "median_us": 395.9000000577362
+    },
+    {
+      "density": 0.15,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 354,
+      "median_us": 688.9999999657448
+    },
+    {
+      "density": 0.15,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 354,
+      "median_us": 1189.5999999751439
+    },
+    {
+      "density": 0.15,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 354,
+      "median_us": 1197.7999999999156
+    },
+    {
+      "density": 0.15,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 329,
+      "median_us": 1187.2999999695821
+    },
+    {
+      "density": 0.15,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 70,
+      "median_us": 402.30000001884036
+    },
+    {
+      "density": 0.15,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 347,
+      "median_us": 677.6999999829059
+    },
+    {
+      "density": 0.15,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 347,
+      "median_us": 1140.6999999508116
+    },
+    {
+      "density": 0.15,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 347,
+      "median_us": 1174.300000002404
+    },
+    {
+      "density": 0.15,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 277,
+      "median_us": 1011.8000000147731
+    },
+    {
+      "density": 0.15,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 51,
+      "median_us": 359.7999999556123
+    },
+    {
+      "density": 0.15,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 330,
+      "median_us": 640.5000000313521
+    },
+    {
+      "density": 0.15,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 330,
+      "median_us": 1065.100000005259
+    },
+    {
+      "density": 0.15,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 330,
+      "median_us": 1101.5999999699488
+    },
+    {
+      "density": 0.15,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 254,
+      "median_us": 914.9999999635838
+    },
+    {
+      "density": 0.15,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 60,
+      "median_us": 357.3000000187676
+    },
+    {
+      "density": 0.15,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 641.5000000288273
+    },
+    {
+      "density": 0.15,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1076.399999988098
+    },
+    {
+      "density": 0.15,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1103.800000009869
+    },
+    {
+      "density": 0.15,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 299,
+      "median_us": 1094.2999999770109
+    },
+    {
+      "density": 0.15,
+      "seed": 12015,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 59,
+      "median_us": 361.29999989498174
+    },
+    {
+      "density": 0.15,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 338,
+      "median_us": 653.7000000435
+    },
+    {
+      "density": 0.15,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 338,
+      "median_us": 1102.099999911843
+    },
+    {
+      "density": 0.15,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 338,
+      "median_us": 1153.100000010454
+    },
+    {
+      "density": 0.15,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 318,
+      "median_us": 1104.000000054839
+    },
+    {
+      "density": 0.15,
+      "seed": 12016,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 62,
+      "median_us": 371.49999991470395
+    },
+    {
+      "density": 0.15,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 699.4000000304368
+    },
+    {
+      "density": 0.15,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1086.100000065926
+    },
+    {
+      "density": 0.15,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 335,
+      "median_us": 1109.399999904781
+    },
+    {
+      "density": 0.15,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 276,
+      "median_us": 970.3999999146617
+    },
+    {
+      "density": 0.15,
+      "seed": 12017,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 53,
+      "median_us": 344.79999999348365
+    },
+    {
+      "density": 0.15,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 352,
+      "median_us": 695.9999999480715
+    },
+    {
+      "density": 0.15,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 352,
+      "median_us": 1155.199999971046
+    },
+    {
+      "density": 0.15,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 352,
+      "median_us": 1198.2999999418098
+    },
+    {
+      "density": 0.15,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 317,
+      "median_us": 1122.2999999063177
+    },
+    {
+      "density": 0.15,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 39,
+      "median_us": 1408.9000000012675
+    },
+    {
+      "density": 0.15,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 343,
+      "median_us": 678.7999999460226
+    },
+    {
+      "density": 0.15,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 343,
+      "median_us": 1123.3000000174798
+    },
+    {
+      "density": 0.15,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 343,
+      "median_us": 1172.900000028676
+    },
+    {
+      "density": 0.15,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 287,
+      "median_us": 1017.2999999440435
+    },
+    {
+      "density": 0.15,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 41,
+      "median_us": 293.80000000855944
+    },
+    {
+      "density": 0.3,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 273,
+      "median_us": 520.7000000382322
+    },
+    {
+      "density": 0.3,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 273,
+      "median_us": 877.7000000463886
+    },
+    {
+      "density": 0.3,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 273,
+      "median_us": 905.2000000338012
+    },
+    {
+      "density": 0.3,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 120,
+      "median_us": 492.6999999952386
+    },
+    {
+      "density": 0.3,
+      "seed": 12000,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 55,
+      "median_us": 323.20000002528104
+    },
+    {
+      "density": 0.3,
+      "seed": 12001,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 2.300000005561742
+    },
+    {
+      "density": 0.3,
+      "seed": 12001,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 116.00000004818867
+    },
+    {
+      "density": 0.3,
+      "seed": 12001,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 116.29999994511309
+    },
+    {
+      "density": 0.3,
+      "seed": 12001,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 117.90000007749768
+    },
+    {
+      "density": 0.3,
+      "seed": 12001,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 117.89999996381084
+    },
+    {
+      "density": 0.3,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 40,
+      "expanded": 279,
+      "median_us": 1442.2000000422486
+    },
+    {
+      "density": 0.3,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 40,
+      "expanded": 279,
+      "median_us": 897.0999999746709
+    },
+    {
+      "density": 0.3,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 40,
+      "expanded": 279,
+      "median_us": 921.1999999934051
+    },
+    {
+      "density": 0.3,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 40,
+      "expanded": 239,
+      "median_us": 857.1999999276159
+    },
+    {
+      "density": 0.3,
+      "seed": 12002,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 40,
+      "expanded": 185,
+      "median_us": 795.199999970464
+    },
+    {
+      "density": 0.3,
+      "seed": 12003,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 246,
+      "median_us": 460.00000008916686
+    },
+    {
+      "density": 0.3,
+      "seed": 12003,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 246,
+      "median_us": 790.1000000174463
+    },
+    {
+      "density": 0.3,
+      "seed": 12003,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 246,
+      "median_us": 810.5000000568907
+    },
+    {
+      "density": 0.3,
+      "seed": 12003,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 246,
+      "median_us": 826.6999999477775
+    },
+    {
+      "density": 0.3,
+      "seed": 12003,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 246,
+      "median_us": 903.3000000044922
+    },
+    {
+      "density": 0.3,
+      "seed": 12004,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 265,
+      "median_us": 493.3999999821026
+    },
+    {
+      "density": 0.3,
+      "seed": 12004,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 265,
+      "median_us": 843.8999999498265
+    },
+    {
+      "density": 0.3,
+      "seed": 12004,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 265,
+      "median_us": 862.4999999256033
+    },
+    {
+      "density": 0.3,
+      "seed": 12004,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 265,
+      "median_us": 885.3999999018924
+    },
+    {
+      "density": 0.3,
+      "seed": 12004,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 265,
+      "median_us": 995.3999999652297
+    },
+    {
+      "density": 0.3,
+      "seed": 12005,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 2.399999971203215
+    },
+    {
+      "density": 0.3,
+      "seed": 12005,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 119.19999997189734
+    },
+    {
+      "density": 0.3,
+      "seed": 12005,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 378.69999994200043
+    },
+    {
+      "density": 0.3,
+      "seed": 12005,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 377.8000000238535
+    },
+    {
+      "density": 0.3,
+      "seed": 12005,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 1,
+      "median_us": 265.599999920596
+    },
+    {
+      "density": 0.3,
+      "seed": 12006,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 263,
+      "median_us": 498.79999994573154
+    },
+    {
+      "density": 0.3,
+      "seed": 12006,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 263,
+      "median_us": 846.2999999210297
+    },
+    {
+      "density": 0.3,
+      "seed": 12006,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 263,
+      "median_us": 856.2000000438275
+    },
+    {
+      "density": 0.3,
+      "seed": 12006,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 263,
+      "median_us": 876.8999999801963
+    },
+    {
+      "density": 0.3,
+      "seed": 12006,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 263,
+      "median_us": 994.2000000364715
+    },
+    {
+      "density": 0.3,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 42,
+      "expanded": 265,
+      "median_us": 537.0000000084474
+    },
+    {
+      "density": 0.3,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 42,
+      "expanded": 265,
+      "median_us": 837.4999999887223
+    },
+    {
+      "density": 0.3,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 42,
+      "expanded": 265,
+      "median_us": 858.200000038778
+    },
+    {
+      "density": 0.3,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 42,
+      "expanded": 210,
+      "median_us": 760.0999999795022
+    },
+    {
+      "density": 0.3,
+      "seed": 12007,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 42,
+      "expanded": 142,
+      "median_us": 606.500000003507
+    },
+    {
+      "density": 0.3,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 267,
+      "median_us": 585.9999999984211
+    },
+    {
+      "density": 0.3,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 267,
+      "median_us": 858.5000000493892
+    },
+    {
+      "density": 0.3,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 267,
+      "median_us": 876.1000000276908
+    },
+    {
+      "density": 0.3,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 81,
+      "median_us": 384.39999991624063
+    },
+    {
+      "density": 0.3,
+      "seed": 12008,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 51,
+      "median_us": 306.00000002323213
+    },
+    {
+      "density": 0.3,
+      "seed": 12009,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 256,
+      "median_us": 474.400000030073
+    },
+    {
+      "density": 0.3,
+      "seed": 12009,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 256,
+      "median_us": 829.1000000326676
+    },
+    {
+      "density": 0.3,
+      "seed": 12009,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 256,
+      "median_us": 839.8999999599255
+    },
+    {
+      "density": 0.3,
+      "seed": 12009,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 256,
+      "median_us": 868.799999921066
+    },
+    {
+      "density": 0.3,
+      "seed": 12009,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 256,
+      "median_us": 930.6000000606218
+    },
+    {
+      "density": 0.3,
+      "seed": 12010,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 3,
+      "median_us": 5.499999929270416
+    },
+    {
+      "density": 0.3,
+      "seed": 12010,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 3,
+      "median_us": 127.20000006538612
+    },
+    {
+      "density": 0.3,
+      "seed": 12010,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 3,
+      "median_us": 126.50000007852213
+    },
+    {
+      "density": 0.3,
+      "seed": 12010,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 3,
+      "median_us": 413.29999999106803
+    },
+    {
+      "density": 0.3,
+      "seed": 12010,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 3,
+      "median_us": 412.80000004917383
+    },
+    {
+      "density": 0.3,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 42,
+      "expanded": 251,
+      "median_us": 489.0999999815904
+    },
+    {
+      "density": 0.3,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 42,
+      "expanded": 251,
+      "median_us": 808.5999999138949
+    },
+    {
+      "density": 0.3,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 42,
+      "expanded": 251,
+      "median_us": 830.1999999957843
+    },
+    {
+      "density": 0.3,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 42,
+      "expanded": 163,
+      "median_us": 617.4999999757347
+    },
+    {
+      "density": 0.3,
+      "seed": 12011,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 42,
+      "expanded": 135,
+      "median_us": 593.9000000125816
+    },
+    {
+      "density": 0.3,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 40,
+      "expanded": 293,
+      "median_us": 573.000000031243
+    },
+    {
+      "density": 0.3,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 40,
+      "expanded": 293,
+      "median_us": 942.399999985355
+    },
+    {
+      "density": 0.3,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 40,
+      "expanded": 293,
+      "median_us": 962.4999999005013
+    },
+    {
+      "density": 0.3,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 40,
+      "expanded": 200,
+      "median_us": 751.2999999335079
+    },
+    {
+      "density": 0.3,
+      "seed": 12012,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 40,
+      "expanded": 147,
+      "median_us": 674.5000000591972
+    },
+    {
+      "density": 0.3,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 40,
+      "expanded": 255,
+      "median_us": 486.80000008971547
+    },
+    {
+      "density": 0.3,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 40,
+      "expanded": 255,
+      "median_us": 810.9000000331434
+    },
+    {
+      "density": 0.3,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 40,
+      "expanded": 255,
+      "median_us": 868.0999999342021
+    },
+    {
+      "density": 0.3,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 40,
+      "expanded": 137,
+      "median_us": 529.8999999467924
+    },
+    {
+      "density": 0.3,
+      "seed": 12013,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 40,
+      "expanded": 102,
+      "median_us": 478.89999996186816
+    },
+    {
+      "density": 0.3,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 40,
+      "expanded": 261,
+      "median_us": 512.599999979102
+    },
+    {
+      "density": 0.3,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 40,
+      "expanded": 261,
+      "median_us": 831.8999999801235
+    },
+    {
+      "density": 0.3,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 40,
+      "expanded": 261,
+      "median_us": 864.6999999655236
+    },
+    {
+      "density": 0.3,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 40,
+      "expanded": 102,
+      "median_us": 489.0999999815904
+    },
+    {
+      "density": 0.3,
+      "seed": 12014,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 40,
+      "expanded": 87,
+      "median_us": 411.50000004108733
+    },
+    {
+      "density": 0.3,
+      "seed": 12015,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 258,
+      "median_us": 482.79999998612766
+    },
+    {
+      "density": 0.3,
+      "seed": 12015,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 258,
+      "median_us": 852.6999999958207
+    },
+    {
+      "density": 0.3,
+      "seed": 12015,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 258,
+      "median_us": 848.0000000190557
+    },
+    {
+      "density": 0.3,
+      "seed": 12015,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 258,
+      "median_us": 845.4999999685242
+    },
+    {
+      "density": 0.3,
+      "seed": 12015,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 258,
+      "median_us": 3185.599999937949
+    },
+    {
+      "density": 0.3,
+      "seed": 12016,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 229,
+      "median_us": 1320.5999999854612
+    },
+    {
+      "density": 0.3,
+      "seed": 12016,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 229,
+      "median_us": 2383.4999999508
+    },
+    {
+      "density": 0.3,
+      "seed": 12016,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 229,
+      "median_us": 2405.899999985195
+    },
+    {
+      "density": 0.3,
+      "seed": 12016,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 229,
+      "median_us": 2551.199999970777
+    },
+    {
+      "density": 0.3,
+      "seed": 12016,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 229,
+      "median_us": 1142.8999999907319
+    },
+    {
+      "density": 0.3,
+      "seed": 12017,
+      "reachable": false,
+      "strategy": "BFS",
+      "cost": -1,
+      "expanded": 214,
+      "median_us": 418.99999996530823
+    },
+    {
+      "density": 0.3,
+      "seed": 12017,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "cost": -1,
+      "expanded": 214,
+      "median_us": 715.1999999450709
+    },
+    {
+      "density": 0.3,
+      "seed": 12017,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "cost": -1,
+      "expanded": 214,
+      "median_us": 725.2999999991516
+    },
+    {
+      "density": 0.3,
+      "seed": 12017,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "cost": -1,
+      "expanded": 214,
+      "median_us": 750.9999999228967
+    },
+    {
+      "density": 0.3,
+      "seed": 12017,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "cost": -1,
+      "expanded": 214,
+      "median_us": 796.0000000366563
+    },
+    {
+      "density": 0.3,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 293,
+      "median_us": 573.1000001105713
+    },
+    {
+      "density": 0.3,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 293,
+      "median_us": 932.5000000899308
+    },
+    {
+      "density": 0.3,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 293,
+      "median_us": 962.0999999242486
+    },
+    {
+      "density": 0.3,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 162,
+      "median_us": 620.4999999681604
+    },
+    {
+      "density": 0.3,
+      "seed": 12018,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 41,
+      "median_us": 278.29999999084976
+    },
+    {
+      "density": 0.3,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "BFS",
+      "cost": 38,
+      "expanded": 290,
+      "median_us": 551.7999999256062
+    },
+    {
+      "density": 0.3,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "cost": 38,
+      "expanded": 290,
+      "median_us": 942.6000000303247
+    },
+    {
+      "density": 0.3,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "cost": 38,
+      "expanded": 290,
+      "median_us": 948.9000000257874
+    },
+    {
+      "density": 0.3,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "cost": 38,
+      "expanded": 203,
+      "median_us": 747.4000000229353
+    },
+    {
+      "density": 0.3,
+      "seed": 12019,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "cost": 38,
+      "expanded": 42,
+      "median_us": 276.70000008583884
+    }
+  ],
+  "map_summary": [
+    {
+      "density": 0.0,
+      "reachable": true,
+      "strategy": "BFS",
+      "n": 20,
+      "median_expanded": 400.0,
+      "expanded_q1": 400.0,
+      "expanded_q3": 400.0,
+      "median_us": 797.5500000156899
+    },
+    {
+      "density": 0.0,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "n": 20,
+      "median_expanded": 400.0,
+      "expanded_q1": 400.0,
+      "expanded_q3": 400.0,
+      "median_us": 1348.0999999728738
+    },
+    {
+      "density": 0.0,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "n": 20,
+      "median_expanded": 400.0,
+      "expanded_q1": 400.0,
+      "expanded_q3": 400.0,
+      "median_us": 1387.099999988095
+    },
+    {
+      "density": 0.0,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "n": 20,
+      "median_expanded": 400.0,
+      "expanded_q1": 400.0,
+      "expanded_q3": 400.0,
+      "median_us": 1368.099999979222
+    },
+    {
+      "density": 0.0,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "n": 20,
+      "median_expanded": 39.0,
+      "expanded_q1": 39.0,
+      "expanded_q3": 39.0,
+      "median_us": 302.94999999114225
+    },
+    {
+      "density": 0.15,
+      "reachable": true,
+      "strategy": "BFS",
+      "n": 20,
+      "median_expanded": 343.0,
+      "expanded_q1": 335.0,
+      "expanded_q3": 347.25,
+      "median_us": 675.5499999826498
+    },
+    {
+      "density": 0.15,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "n": 20,
+      "median_expanded": 343.0,
+      "expanded_q1": 335.0,
+      "expanded_q3": 347.25,
+      "median_us": 1126.1500000045999
+    },
+    {
+      "density": 0.15,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "n": 20,
+      "median_expanded": 343.0,
+      "expanded_q1": 335.0,
+      "expanded_q3": 347.25,
+      "median_us": 1166.6999999988548
+    },
+    {
+      "density": 0.15,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "n": 20,
+      "median_expanded": 290.5,
+      "expanded_q1": 272.0,
+      "expanded_q3": 318.75,
+      "median_us": 1068.5500000136017
+    },
+    {
+      "density": 0.15,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "n": 20,
+      "median_expanded": 52.0,
+      "expanded_q1": 42.5,
+      "expanded_q3": 62.0,
+      "median_us": 358.54999998718995
+    },
+    {
+      "density": 0.3,
+      "reachable": true,
+      "strategy": "BFS",
+      "n": 10,
+      "median_expanded": 270.0,
+      "expanded_q1": 262.0,
+      "expanded_q3": 287.25,
+      "median_us": 544.3999999670268
+    },
+    {
+      "density": 0.3,
+      "reachable": true,
+      "strategy": "zero_FIFO",
+      "n": 10,
+      "median_expanded": 270.0,
+      "expanded_q1": 262.0,
+      "expanded_q3": 287.25,
+      "median_us": 868.1000000478889
+    },
+    {
+      "density": 0.3,
+      "reachable": true,
+      "strategy": "zero_larger_g",
+      "n": 10,
+      "median_expanded": 270.0,
+      "expanded_q1": 262.0,
+      "expanded_q3": 287.25,
+      "median_us": 890.650000030746
+    },
+    {
+      "density": 0.3,
+      "reachable": true,
+      "strategy": "manhattan_FIFO",
+      "n": 10,
+      "median_expanded": 162.5,
+      "expanded_q1": 124.25,
+      "expanded_q3": 202.25,
+      "median_us": 618.9999999719475
+    },
+    {
+      "density": 0.3,
+      "reachable": true,
+      "strategy": "manhattan_larger_g",
+      "n": 10,
+      "median_expanded": 94.5,
+      "expanded_q1": 52.0,
+      "expanded_q3": 140.25,
+      "median_us": 445.20000000147775
+    },
+    {
+      "density": 0.3,
+      "reachable": false,
+      "strategy": "BFS",
+      "n": 10,
+      "median_expanded": 237.5,
+      "expanded_q1": 55.75,
+      "expanded_q3": 257.5,
+      "median_us": 467.2000000596199
+    },
+    {
+      "density": 0.3,
+      "reachable": false,
+      "strategy": "zero_FIFO",
+      "n": 10,
+      "median_expanded": 237.5,
+      "expanded_q1": 55.75,
+      "expanded_q3": 257.5,
+      "median_us": 809.6000000250569
+    },
+    {
+      "density": 0.3,
+      "reachable": false,
+      "strategy": "zero_larger_g",
+      "n": 10,
+      "median_expanded": 237.5,
+      "expanded_q1": 55.75,
+      "expanded_q3": 257.5,
+      "median_us": 825.2000000084081
+    },
+    {
+      "density": 0.3,
+      "reachable": false,
+      "strategy": "manhattan_FIFO",
+      "n": 10,
+      "median_expanded": 237.5,
+      "expanded_q1": 55.75,
+      "expanded_q3": 257.5,
+      "median_us": 836.0999999581509
+    },
+    {
+      "density": 0.3,
+      "reachable": false,
+      "strategy": "manhattan_larger_g",
+      "n": 10,
+      "median_expanded": 237.5,
+      "expanded_q1": 55.75,
+      "expanded_q3": 257.5,
+      "median_us": 916.950000032557
+    }
+  ],
+  "trees": [
+    {
+      "seed": 22000,
+      "value": -8,
+      "minimax": 121,
+      "forward": 57,
+      "reverse": 94
+    },
+    {
+      "seed": 22001,
+      "value": -5,
+      "minimax": 121,
+      "forward": 56,
+      "reverse": 72
+    },
+    {
+      "seed": 22002,
+      "value": -10,
+      "minimax": 121,
+      "forward": 69,
+      "reverse": 84
+    },
+    {
+      "seed": 22003,
+      "value": -10,
+      "minimax": 121,
+      "forward": 96,
+      "reverse": 63
+    },
+    {
+      "seed": 22004,
+      "value": -7,
+      "minimax": 121,
+      "forward": 75,
+      "reverse": 63
+    },
+    {
+      "seed": 22005,
+      "value": -6,
+      "minimax": 121,
+      "forward": 66,
+      "reverse": 79
+    },
+    {
+      "seed": 22006,
+      "value": -2,
+      "minimax": 121,
+      "forward": 108,
+      "reverse": 74
+    },
+    {
+      "seed": 22007,
+      "value": -7,
+      "minimax": 121,
+      "forward": 84,
+      "reverse": 52
+    },
+    {
+      "seed": 22008,
+      "value": -7,
+      "minimax": 121,
+      "forward": 72,
+      "reverse": 77
+    },
+    {
+      "seed": 22009,
+      "value": -3,
+      "minimax": 121,
+      "forward": 65,
+      "reverse": 78
+    },
+    {
+      "seed": 22010,
+      "value": -11,
+      "minimax": 121,
+      "forward": 76,
+      "reverse": 79
+    },
+    {
+      "seed": 22011,
+      "value": -3,
+      "minimax": 121,
+      "forward": 68,
+      "reverse": 68
+    },
+    {
+      "seed": 22012,
+      "value": 1,
+      "minimax": 121,
+      "forward": 80,
+      "reverse": 82
+    },
+    {
+      "seed": 22013,
+      "value": -3,
+      "minimax": 121,
+      "forward": 98,
+      "reverse": 73
+    },
+    {
+      "seed": 22014,
+      "value": -6,
+      "minimax": 121,
+      "forward": 79,
+      "reverse": 77
+    },
+    {
+      "seed": 22015,
+      "value": 1,
+      "minimax": 121,
+      "forward": 72,
+      "reverse": 61
+    },
+    {
+      "seed": 22016,
+      "value": -10,
+      "minimax": 121,
+      "forward": 75,
+      "reverse": 87
+    },
+    {
+      "seed": 22017,
+      "value": -4,
+      "minimax": 121,
+      "forward": 79,
+      "reverse": 71
+    },
+    {
+      "seed": 22018,
+      "value": -1,
+      "minimax": 121,
+      "forward": 78,
+      "reverse": 55
+    },
+    {
+      "seed": 22019,
+      "value": -5,
+      "minimax": 121,
+      "forward": 78,
+      "reverse": 78
+    }
+  ],
+  "tree_summary": {
+    "n": 20,
+    "branching": 3,
+    "depth": 4,
+    "median_minimax": 121.0,
+    "median_forward": 75.5,
+    "median_reverse": 75.5,
+    "reverse_better": 9,
+    "equal": 2,
+    "reverse_worse": 9
+  },
+  "policies": [
+    {
+      "seed": 32000,
+      "values": {
+        "T1": 7,
+        "T2": 13,
+        "T3": 15,
+        "T4": 2
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T3",
+      "optimal_value": 7,
+      "greedy_first_value": 3,
+      "loss": 4
+    },
+    {
+      "seed": 32001,
+      "values": {
+        "T1": 3,
+        "T2": 7,
+        "T3": 2,
+        "T4": 4
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 6,
+      "greedy_first_value": 6,
+      "loss": 0
+    },
+    {
+      "seed": 32002,
+      "values": {
+        "T1": 10,
+        "T2": 15,
+        "T3": 4,
+        "T4": 12
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 13,
+      "greedy_first_value": 13,
+      "loss": 0
+    },
+    {
+      "seed": 32003,
+      "values": {
+        "T1": 10,
+        "T2": 13,
+        "T3": 3,
+        "T4": 4
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 12,
+      "greedy_first_value": 12,
+      "loss": 0
+    },
+    {
+      "seed": 32004,
+      "values": {
+        "T1": 12,
+        "T2": 5,
+        "T3": 4,
+        "T4": 13
+      },
+      "greedy_target": "T4",
+      "optimal_target": "T2",
+      "optimal_value": 2,
+      "greedy_first_value": 2,
+      "loss": 0
+    },
+    {
+      "seed": 32005,
+      "values": {
+        "T1": 4,
+        "T2": 15,
+        "T3": 13,
+        "T4": 9
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 7,
+      "greedy_first_value": 7,
+      "loss": 0
+    },
+    {
+      "seed": 32006,
+      "values": {
+        "T1": 13,
+        "T2": 2,
+        "T3": 4,
+        "T4": 14
+      },
+      "greedy_target": "T4",
+      "optimal_target": "T3",
+      "optimal_value": 3,
+      "greedy_first_value": 3,
+      "loss": 0
+    },
+    {
+      "seed": 32007,
+      "values": {
+        "T1": 6,
+        "T2": 5,
+        "T3": 13,
+        "T4": 2
+      },
+      "greedy_target": "T3",
+      "optimal_target": "T3",
+      "optimal_value": 12,
+      "greedy_first_value": 12,
+      "loss": 0
+    },
+    {
+      "seed": 32008,
+      "values": {
+        "T1": 3,
+        "T2": 15,
+        "T3": 6,
+        "T4": 6
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 12,
+      "greedy_first_value": 12,
+      "loss": 0
+    },
+    {
+      "seed": 32009,
+      "values": {
+        "T1": 8,
+        "T2": 7,
+        "T3": 5,
+        "T4": 4
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 6,
+      "greedy_first_value": 6,
+      "loss": 0
+    },
+    {
+      "seed": 32010,
+      "values": {
+        "T1": 4,
+        "T2": 7,
+        "T3": 8,
+        "T4": 3
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T3",
+      "optimal_value": 2,
+      "greedy_first_value": 0,
+      "loss": 2
+    },
+    {
+      "seed": 32011,
+      "values": {
+        "T1": 4,
+        "T2": 15,
+        "T3": 12,
+        "T4": 10
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 9,
+      "greedy_first_value": 9,
+      "loss": 0
+    },
+    {
+      "seed": 32012,
+      "values": {
+        "T1": 8,
+        "T2": 15,
+        "T3": 12,
+        "T4": 8
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 3,
+      "greedy_first_value": 3,
+      "loss": 0
+    },
+    {
+      "seed": 32013,
+      "values": {
+        "T1": 6,
+        "T2": 4,
+        "T3": 2,
+        "T4": 12
+      },
+      "greedy_target": "T4",
+      "optimal_target": "T4",
+      "optimal_value": 4,
+      "greedy_first_value": 4,
+      "loss": 0
+    },
+    {
+      "seed": 32014,
+      "values": {
+        "T1": 4,
+        "T2": 12,
+        "T3": 8,
+        "T4": 2
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 6,
+      "greedy_first_value": 6,
+      "loss": 0
+    },
+    {
+      "seed": 32015,
+      "values": {
+        "T1": 14,
+        "T2": 9,
+        "T3": 9,
+        "T4": 4
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 10,
+      "greedy_first_value": 10,
+      "loss": 0
+    },
+    {
+      "seed": 32016,
+      "values": {
+        "T1": 5,
+        "T2": 9,
+        "T3": 15,
+        "T4": 3
+      },
+      "greedy_target": "T3",
+      "optimal_target": "T3",
+      "optimal_value": 8,
+      "greedy_first_value": 8,
+      "loss": 0
+    },
+    {
+      "seed": 32017,
+      "values": {
+        "T1": 14,
+        "T2": 14,
+        "T3": 13,
+        "T4": 5
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 10,
+      "greedy_first_value": 10,
+      "loss": 0
+    },
+    {
+      "seed": 32018,
+      "values": {
+        "T1": 9,
+        "T2": 6,
+        "T3": 8,
+        "T4": 12
+      },
+      "greedy_target": "T4",
+      "optimal_target": "T2",
+      "optimal_value": 1,
+      "greedy_first_value": -3,
+      "loss": 4
+    },
+    {
+      "seed": 32019,
+      "values": {
+        "T1": 8,
+        "T2": 15,
+        "T3": 9,
+        "T4": 12
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 10,
+      "greedy_first_value": 10,
+      "loss": 0
+    },
+    {
+      "seed": 32020,
+      "values": {
+        "T1": 5,
+        "T2": 12,
+        "T3": 9,
+        "T4": 10
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 8,
+      "greedy_first_value": 8,
+      "loss": 0
+    },
+    {
+      "seed": 32021,
+      "values": {
+        "T1": 9,
+        "T2": 9,
+        "T3": 12,
+        "T4": 9
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T3",
+      "optimal_value": 3,
+      "greedy_first_value": -3,
+      "loss": 6
+    },
+    {
+      "seed": 32022,
+      "values": {
+        "T1": 3,
+        "T2": 10,
+        "T3": 5,
+        "T4": 8
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 10,
+      "greedy_first_value": 10,
+      "loss": 0
+    },
+    {
+      "seed": 32023,
+      "values": {
+        "T1": 8,
+        "T2": 6,
+        "T3": 4,
+        "T4": 2
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 8,
+      "greedy_first_value": 8,
+      "loss": 0
+    },
+    {
+      "seed": 32024,
+      "values": {
+        "T1": 5,
+        "T2": 10,
+        "T3": 4,
+        "T4": 15
+      },
+      "greedy_target": "T4",
+      "optimal_target": "T2",
+      "optimal_value": 6,
+      "greedy_first_value": 4,
+      "loss": 2
+    },
+    {
+      "seed": 32025,
+      "values": {
+        "T1": 15,
+        "T2": 15,
+        "T3": 6,
+        "T4": 7
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 9,
+      "greedy_first_value": 9,
+      "loss": 0
+    },
+    {
+      "seed": 32026,
+      "values": {
+        "T1": 11,
+        "T2": 13,
+        "T3": 3,
+        "T4": 5
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 10,
+      "greedy_first_value": 10,
+      "loss": 0
+    },
+    {
+      "seed": 32027,
+      "values": {
+        "T1": 7,
+        "T2": 4,
+        "T3": 15,
+        "T4": 7
+      },
+      "greedy_target": "T3",
+      "optimal_target": "T3",
+      "optimal_value": 11,
+      "greedy_first_value": 11,
+      "loss": 0
+    },
+    {
+      "seed": 32028,
+      "values": {
+        "T1": 12,
+        "T2": 2,
+        "T3": 8,
+        "T4": 9
+      },
+      "greedy_target": "T1",
+      "optimal_target": "T3",
+      "optimal_value": 3,
+      "greedy_first_value": -1,
+      "loss": 4
+    },
+    {
+      "seed": 32029,
+      "values": {
+        "T1": 5,
+        "T2": 2,
+        "T3": 6,
+        "T4": 3
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T3",
+      "optimal_value": 6,
+      "greedy_first_value": -2,
+      "loss": 8
+    },
+    {
+      "seed": 32030,
+      "values": {
+        "T1": 3,
+        "T2": 4,
+        "T3": 4,
+        "T4": 4
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 1,
+      "greedy_first_value": 1,
+      "loss": 0
+    },
+    {
+      "seed": 32031,
+      "values": {
+        "T1": 5,
+        "T2": 12,
+        "T3": 15,
+        "T4": 10
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T3",
+      "optimal_value": 8,
+      "greedy_first_value": 2,
+      "loss": 6
+    },
+    {
+      "seed": 32032,
+      "values": {
+        "T1": 6,
+        "T2": 2,
+        "T3": 10,
+        "T4": 3
+      },
+      "greedy_target": "T3",
+      "optimal_target": "T3",
+      "optimal_value": 9,
+      "greedy_first_value": 9,
+      "loss": 0
+    },
+    {
+      "seed": 32033,
+      "values": {
+        "T1": 15,
+        "T2": 13,
+        "T3": 15,
+        "T4": 4
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T3",
+      "optimal_value": 13,
+      "greedy_first_value": 9,
+      "loss": 4
+    },
+    {
+      "seed": 32034,
+      "values": {
+        "T1": 5,
+        "T2": 15,
+        "T3": 8,
+        "T4": 10
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 12,
+      "greedy_first_value": 12,
+      "loss": 0
+    },
+    {
+      "seed": 32035,
+      "values": {
+        "T1": 7,
+        "T2": 15,
+        "T3": 11,
+        "T4": 14
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 11,
+      "greedy_first_value": 11,
+      "loss": 0
+    },
+    {
+      "seed": 32036,
+      "values": {
+        "T1": 3,
+        "T2": 2,
+        "T3": 6,
+        "T4": 15
+      },
+      "greedy_target": "T4",
+      "optimal_target": "T4",
+      "optimal_value": 4,
+      "greedy_first_value": 4,
+      "loss": 0
+    },
+    {
+      "seed": 32037,
+      "values": {
+        "T1": 4,
+        "T2": 9,
+        "T3": 8,
+        "T4": 12
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 9,
+      "greedy_first_value": 9,
+      "loss": 0
+    },
+    {
+      "seed": 32038,
+      "values": {
+        "T1": 2,
+        "T2": 15,
+        "T3": 12,
+        "T4": 3
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 4,
+      "greedy_first_value": 4,
+      "loss": 0
+    },
+    {
+      "seed": 32039,
+      "values": {
+        "T1": 10,
+        "T2": 10,
+        "T3": 7,
+        "T4": 13
+      },
+      "greedy_target": "T2",
+      "optimal_target": "T2",
+      "optimal_value": 6,
+      "greedy_first_value": 6,
+      "loss": 0
+    }
+  ],
+  "policy_summary": {
+    "n": 40,
+    "positive_loss": 9,
+    "zero_loss": 31,
+    "mean_loss": 1.0,
+    "max_loss": 8
+  },
+  "weighted_counterexample": {
+    "grid": [
+      [
+        1,
+        9,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "bfs": {
+      "cost": 10,
+      "steps": 2,
+      "expanded": 4,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    "astar": {
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cost": 4,
+      "expanded": 5,
+      "generated": 6,
+      "stale_pops": 0,
+      "seconds": 3.4800000094037387e-05
+    }
+  }
+}

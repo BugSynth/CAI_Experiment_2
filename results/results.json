@@ -1,0 +1,1508 @@
+{
+  "environment": {
+    "run_time": "2026-11-09T17:17:46.846031+08:00",
+    "python": "3.13.9",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "repeats": 101,
+    "seed_grids": 20261109,
+    "seed_trees": 42
+  },
+  "distances": {
+    "A": {
+      "A": 0,
+      "B": 12,
+      "T1": 10,
+      "T2": 4,
+      "T3": 8,
+      "T4": 8
+    },
+    "B": {
+      "A": 12,
+      "B": 0,
+      "T1": 8,
+      "T2": 8,
+      "T3": 4,
+      "T4": 10
+    },
+    "T1": {
+      "A": 10,
+      "B": 8,
+      "T1": 0,
+      "T2": 6,
+      "T3": 6,
+      "T4": 12
+    },
+    "T2": {
+      "A": 4,
+      "B": 8,
+      "T1": 6,
+      "T2": 0,
+      "T3": 6,
+      "T4": 6
+    },
+    "T3": {
+      "A": 8,
+      "B": 4,
+      "T1": 6,
+      "T2": 6,
+      "T3": 0,
+      "T4": 6
+    },
+    "T4": {
+      "A": 8,
+      "B": 10,
+      "T1": 12,
+      "T2": 6,
+      "T3": 6,
+      "T4": 0
+    }
+  },
+  "astar": [
+    {
+      "case": "maze",
+      "heuristic": "zero",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cost": 7,
+      "expanded": 16,
+      "generated": 17,
+      "stale_pops": 0,
+      "seconds": 4.7199999244185165e-05,
+      "median_us": 47.199999244185165
+    },
+    {
+      "case": "maze",
+      "heuristic": "manhattan",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cost": 7,
+      "expanded": 14,
+      "generated": 16,
+      "stale_pops": 0,
+      "seconds": 4.660000195144676e-05,
+      "median_us": 46.60000195144676
+    },
+    {
+      "case": "maze",
+      "heuristic": "manhattan",
+      "prefer_deeper": true,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "cost": 7,
+      "expanded": 8,
+      "generated": 11,
+      "stale_pops": 0,
+      "seconds": 3.440000000409782e-05,
+      "median_us": 34.40000000409782
+    },
+    {
+      "case": "weighted",
+      "heuristic": "zero",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "cost": 7,
+      "expanded": 15,
+      "generated": 24,
+      "stale_pops": 0,
+      "seconds": 6.260000009206124e-05,
+      "median_us": 62.60000009206124
+    },
+    {
+      "case": "weighted",
+      "heuristic": "manhattan",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "cost": 7,
+      "expanded": 11,
+      "generated": 19,
+      "stale_pops": 0,
+      "seconds": 5.1399998483248055e-05,
+      "median_us": 51.399998483248055
+    },
+    {
+      "case": "weighted",
+      "heuristic": "manhattan",
+      "prefer_deeper": true,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "cost": 7,
+      "expanded": 11,
+      "generated": 19,
+      "stale_pops": 0,
+      "seconds": 5.219999729888514e-05,
+      "median_us": 52.19999729888514
+    },
+    {
+      "case": "open_30",
+      "heuristic": "zero",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          25
+        ],
+        [
+          0,
+          26
+        ],
+        [
+          0,
+          27
+        ],
+        [
+          0,
+          28
+        ],
+        [
+          0,
+          29
+        ],
+        [
+          1,
+          29
+        ],
+        [
+          2,
+          29
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          29
+        ],
+        [
+          5,
+          29
+        ],
+        [
+          6,
+          29
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          8,
+          29
+        ],
+        [
+          9,
+          29
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          14,
+          29
+        ],
+        [
+          15,
+          29
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          19,
+          29
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          21,
+          29
+        ],
+        [
+          22,
+          29
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          25,
+          29
+        ],
+        [
+          26,
+          29
+        ],
+        [
+          27,
+          29
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          29
+        ]
+      ],
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "stale_pops": 0,
+      "seconds": 0.0028587999986484647,
+      "median_us": 2858.7999986484647
+    },
+    {
+      "case": "open_30",
+      "heuristic": "manhattan",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          25
+        ],
+        [
+          0,
+          26
+        ],
+        [
+          0,
+          27
+        ],
+        [
+          0,
+          28
+        ],
+        [
+          0,
+          29
+        ],
+        [
+          1,
+          29
+        ],
+        [
+          2,
+          29
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          29
+        ],
+        [
+          5,
+          29
+        ],
+        [
+          6,
+          29
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          8,
+          29
+        ],
+        [
+          9,
+          29
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          14,
+          29
+        ],
+        [
+          15,
+          29
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          19,
+          29
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          21,
+          29
+        ],
+        [
+          22,
+          29
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          25,
+          29
+        ],
+        [
+          26,
+          29
+        ],
+        [
+          27,
+          29
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          29
+        ]
+      ],
+      "cost": 58,
+      "expanded": 900,
+      "generated": 900,
+      "stale_pops": 0,
+      "seconds": 0.002440800002659671,
+      "median_us": 2440.800002659671
+    },
+    {
+      "case": "open_30",
+      "heuristic": "manhattan",
+      "prefer_deeper": true,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ],
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          0,
+          17
+        ],
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          22
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          25
+        ],
+        [
+          0,
+          26
+        ],
+        [
+          0,
+          27
+        ],
+        [
+          0,
+          28
+        ],
+        [
+          0,
+          29
+        ],
+        [
+          1,
+          29
+        ],
+        [
+          2,
+          29
+        ],
+        [
+          3,
+          29
+        ],
+        [
+          4,
+          29
+        ],
+        [
+          5,
+          29
+        ],
+        [
+          6,
+          29
+        ],
+        [
+          7,
+          29
+        ],
+        [
+          8,
+          29
+        ],
+        [
+          9,
+          29
+        ],
+        [
+          10,
+          29
+        ],
+        [
+          11,
+          29
+        ],
+        [
+          12,
+          29
+        ],
+        [
+          13,
+          29
+        ],
+        [
+          14,
+          29
+        ],
+        [
+          15,
+          29
+        ],
+        [
+          16,
+          29
+        ],
+        [
+          17,
+          29
+        ],
+        [
+          18,
+          29
+        ],
+        [
+          19,
+          29
+        ],
+        [
+          20,
+          29
+        ],
+        [
+          21,
+          29
+        ],
+        [
+          22,
+          29
+        ],
+        [
+          23,
+          29
+        ],
+        [
+          24,
+          29
+        ],
+        [
+          25,
+          29
+        ],
+        [
+          26,
+          29
+        ],
+        [
+          27,
+          29
+        ],
+        [
+          28,
+          29
+        ],
+        [
+          29,
+          29
+        ]
+      ],
+      "cost": 58,
+      "expanded": 59,
+      "generated": 115,
+      "stale_pops": 0,
+      "seconds": 0.0004938000020047184,
+      "median_us": 493.8000020047184
+    },
+    {
+      "case": "unreachable",
+      "heuristic": "zero",
+      "prefer_deeper": false,
+      "path": [],
+      "cost": -1,
+      "expanded": 3,
+      "generated": 3,
+      "stale_pops": 0,
+      "seconds": 1.1000000085914508e-05,
+      "median_us": 11.000000085914508
+    },
+    {
+      "case": "unreachable",
+      "heuristic": "manhattan",
+      "prefer_deeper": false,
+      "path": [],
+      "cost": -1,
+      "expanded": 3,
+      "generated": 3,
+      "stale_pops": 0,
+      "seconds": 1.1299998732283711e-05,
+      "median_us": 11.299998732283711
+    },
+    {
+      "case": "unreachable",
+      "heuristic": "manhattan",
+      "prefer_deeper": true,
+      "path": [],
+      "cost": -1,
+      "expanded": 3,
+      "generated": 3,
+      "stale_pops": 0,
+      "seconds": 1.1299998732283711e-05,
+      "median_us": 11.299998732283711
+    },
+    {
+      "case": "zero_goal",
+      "heuristic": "zero",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cost": 0,
+      "expanded": 2,
+      "generated": 2,
+      "stale_pops": 0,
+      "seconds": 6.400001439033076e-06,
+      "median_us": 6.400001439033076
+    },
+    {
+      "case": "zero_goal",
+      "heuristic": "manhattan",
+      "prefer_deeper": false,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cost": 0,
+      "expanded": 2,
+      "generated": 2,
+      "stale_pops": 0,
+      "seconds": 6.400001439033076e-06,
+      "median_us": 6.400001439033076
+    },
+    {
+      "case": "zero_goal",
+      "heuristic": "manhattan",
+      "prefer_deeper": true,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "cost": 0,
+      "expanded": 2,
+      "generated": 2,
+      "stale_pops": 0,
+      "seconds": 6.199999916134402e-06,
+      "median_us": 6.199999916134402
+    }
+  ],
+  "trees": [
+    {
+      "pruning": false,
+      "reverse": false,
+      "best_target": null,
+      "best_value": 5,
+      "visited": 15,
+      "leaves": 8,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 1.1200001608813182e-05,
+      "median_us": 11.200001608813182
+    },
+    {
+      "pruning": false,
+      "reverse": true,
+      "best_target": null,
+      "best_value": 5,
+      "visited": 15,
+      "leaves": 8,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 1.2900000001536682e-05,
+      "median_us": 12.900000001536682
+    },
+    {
+      "pruning": true,
+      "reverse": false,
+      "best_target": null,
+      "best_value": 5,
+      "visited": 14,
+      "leaves": 7,
+      "cutoffs": 1,
+      "cache_hits": 0,
+      "seconds": 1.1200001608813182e-05,
+      "median_us": 11.200001608813182
+    },
+    {
+      "pruning": true,
+      "reverse": true,
+      "best_target": null,
+      "best_value": 5,
+      "visited": 14,
+      "leaves": 7,
+      "cutoffs": 1,
+      "cache_hits": 0,
+      "seconds": 2.3100001271814108e-05,
+      "median_us": 23.100001271814108
+    }
+  ],
+  "treasure": [
+    {
+      "depth": 2,
+      "pruning": false,
+      "cache": false,
+      "order": "natural",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 7.219999679364264e-05,
+      "median_us": 72.19999679364264
+    },
+    {
+      "depth": 2,
+      "pruning": false,
+      "cache": false,
+      "order": "gain_desc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 7.879999975557439e-05,
+      "median_us": 78.79999975557439
+    },
+    {
+      "depth": 2,
+      "pruning": false,
+      "cache": false,
+      "order": "gain_asc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 7.859999823267572e-05,
+      "median_us": 78.59999823267572
+    },
+    {
+      "depth": 2,
+      "pruning": true,
+      "cache": false,
+      "order": "natural",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 7.230000119307078e-05,
+      "median_us": 72.30000119307078
+    },
+    {
+      "depth": 2,
+      "pruning": true,
+      "cache": false,
+      "order": "gain_desc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 6.270000085351057e-05,
+      "median_us": 62.70000085351057
+    },
+    {
+      "depth": 2,
+      "pruning": true,
+      "cache": false,
+      "order": "gain_asc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 6.089999806135893e-05,
+      "median_us": 60.89999806135893
+    },
+    {
+      "depth": 2,
+      "pruning": false,
+      "cache": true,
+      "order": "natural",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 6.089999806135893e-05,
+      "median_us": 60.89999806135893
+    },
+    {
+      "depth": 2,
+      "pruning": false,
+      "cache": true,
+      "order": "gain_desc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 6.919999941601418e-05,
+      "median_us": 69.19999941601418
+    },
+    {
+      "depth": 2,
+      "pruning": false,
+      "cache": true,
+      "order": "gain_asc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 17,
+      "leaves": 12,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 6.08000009378884e-05,
+      "median_us": 60.8000009378884
+    },
+    {
+      "depth": 4,
+      "pruning": false,
+      "cache": false,
+      "order": "natural",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 65,
+      "leaves": 24,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 0.00027990000307909213,
+      "median_us": 279.90000307909213
+    },
+    {
+      "depth": 4,
+      "pruning": false,
+      "cache": false,
+      "order": "gain_desc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 65,
+      "leaves": 24,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 0.00032609999834676273,
+      "median_us": 326.09999834676273
+    },
+    {
+      "depth": 4,
+      "pruning": false,
+      "cache": false,
+      "order": "gain_asc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 65,
+      "leaves": 24,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 0.00032649999775458127,
+      "median_us": 326.4999977545813
+    },
+    {
+      "depth": 4,
+      "pruning": true,
+      "cache": false,
+      "order": "natural",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 57,
+      "leaves": 20,
+      "cutoffs": 4,
+      "cache_hits": 0,
+      "seconds": 0.0002316999998583924,
+      "median_us": 231.6999998583924
+    },
+    {
+      "depth": 4,
+      "pruning": true,
+      "cache": false,
+      "order": "gain_desc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 49,
+      "leaves": 16,
+      "cutoffs": 8,
+      "cache_hits": 0,
+      "seconds": 0.0002553999984229449,
+      "median_us": 255.39999842294492
+    },
+    {
+      "depth": 4,
+      "pruning": true,
+      "cache": false,
+      "order": "gain_asc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 63,
+      "leaves": 23,
+      "cutoffs": 1,
+      "cache_hits": 0,
+      "seconds": 0.0003256999989389442,
+      "median_us": 325.6999989389442
+    },
+    {
+      "depth": 4,
+      "pruning": false,
+      "cache": true,
+      "order": "natural",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 65,
+      "leaves": 24,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 0.00031490000037592836,
+      "median_us": 314.90000037592836
+    },
+    {
+      "depth": 4,
+      "pruning": false,
+      "cache": true,
+      "order": "gain_desc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 65,
+      "leaves": 24,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 0.00035040000148001127,
+      "median_us": 350.40000148001127
+    },
+    {
+      "depth": 4,
+      "pruning": false,
+      "cache": true,
+      "order": "gain_asc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 65,
+      "leaves": 24,
+      "cutoffs": 0,
+      "cache_hits": 0,
+      "seconds": 0.00032050000299932435,
+      "median_us": 320.50000299932435
+    }
+  ],
+  "root_action_values": {
+    "2": {
+      "T1": -4,
+      "T2": -1,
+      "T3": -2,
+      "T4": -4
+    },
+    "4": {
+      "T1": -5,
+      "T2": 1,
+      "T3": 3,
+      "T4": -7
+    }
+  }
+}

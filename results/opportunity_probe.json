@@ -1,0 +1,232 @@
+{
+  "shared_root_windows": [
+    {
+      "depth": 2,
+      "order": "natural",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 13,
+      "leaves": 8,
+      "cutoffs": 2,
+      "separate_windows_visited": 17
+    },
+    {
+      "depth": 2,
+      "order": "gain_desc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 11,
+      "leaves": 6,
+      "cutoffs": 3,
+      "separate_windows_visited": 17
+    },
+    {
+      "depth": 2,
+      "order": "gain_asc",
+      "best_target": "T2",
+      "best_value": -1,
+      "visited": 16,
+      "leaves": 11,
+      "cutoffs": 1,
+      "separate_windows_visited": 17
+    },
+    {
+      "depth": 4,
+      "order": "natural",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 47,
+      "leaves": 16,
+      "cutoffs": 5,
+      "separate_windows_visited": 57
+    },
+    {
+      "depth": 4,
+      "order": "gain_desc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 37,
+      "leaves": 12,
+      "cutoffs": 6,
+      "separate_windows_visited": 49
+    },
+    {
+      "depth": 4,
+      "order": "gain_asc",
+      "best_target": "T3",
+      "best_value": 3,
+      "visited": 53,
+      "leaves": 19,
+      "cutoffs": 2,
+      "separate_windows_visited": 63
+    }
+  ],
+  "horizons": [
+    {
+      "depth": 1,
+      "best_target": "T2",
+      "best_value": 2
+    },
+    {
+      "depth": 2,
+      "best_target": "T2",
+      "best_value": -1
+    },
+    {
+      "depth": 3,
+      "best_target": "T2",
+      "best_value": 2
+    },
+    {
+      "depth": 4,
+      "best_target": "T3",
+      "best_value": 3
+    }
+  ],
+  "exact_lines": [
+    {
+      "depth": 2,
+      "best_value": -1,
+      "steps": [
+        {
+          "player": "A",
+          "source": "A",
+          "target": "T2",
+          "distance": 4,
+          "gain": 2,
+          "score_a": 2,
+          "score_b": 0,
+          "utility": 2
+        },
+        {
+          "player": "B",
+          "source": "B",
+          "target": "T3",
+          "distance": 4,
+          "gain": 3,
+          "score_a": 2,
+          "score_b": 3,
+          "utility": -1
+        }
+      ]
+    },
+    {
+      "depth": 4,
+      "best_value": 3,
+      "steps": [
+        {
+          "player": "A",
+          "source": "A",
+          "target": "T3",
+          "distance": 8,
+          "gain": -1,
+          "score_a": -1,
+          "score_b": 0,
+          "utility": -1
+        },
+        {
+          "player": "B",
+          "source": "B",
+          "target": "T1",
+          "distance": 8,
+          "gain": 1,
+          "score_a": -1,
+          "score_b": 1,
+          "utility": -2
+        },
+        {
+          "player": "A",
+          "source": "T3",
+          "target": "T2",
+          "distance": 6,
+          "gain": 0,
+          "score_a": -1,
+          "score_b": 1,
+          "utility": -2
+        },
+        {
+          "player": "B",
+          "source": "T1",
+          "target": "T4",
+          "distance": 12,
+          "gain": -5,
+          "score_a": -1,
+          "score_b": -4,
+          "utility": 3
+        }
+      ]
+    }
+  ],
+  "expanded_cache": [
+    {
+      "treasures": 5,
+      "depth": 5,
+      "best_target": "T2",
+      "best_value": 4,
+      "plain_visited": 326,
+      "cached_visited": 266,
+      "cache_hits": 60
+    },
+    {
+      "treasures": 6,
+      "depth": 6,
+      "best_target": "T2",
+      "best_value": 7,
+      "plain_visited": 1957,
+      "cached_visited": 997,
+      "cache_hits": 420
+    },
+    {
+      "treasures": 8,
+      "depth": 8,
+      "best_target": "T5",
+      "best_value": 4,
+      "plain_visited": 109601,
+      "cached_visited": 10817,
+      "cache_hits": 6944
+    }
+  ],
+  "expanded_locations": {
+    "A": [
+      0,
+      0
+    ],
+    "B": [
+      8,
+      8
+    ],
+    "T1": [
+      0,
+      8
+    ],
+    "T2": [
+      2,
+      2
+    ],
+    "T3": [
+      4,
+      4
+    ],
+    "T4": [
+      8,
+      0
+    ],
+    "T5": [
+      1,
+      6
+    ],
+    "T6": [
+      6,
+      1
+    ],
+    "T7": [
+      7,
+      5
+    ],
+    "T8": [
+      3,
+      7
+    ]
+  },
+  "expanded_values_rule": "Vi=5+i; open unit-cost map; H=n"
+}
